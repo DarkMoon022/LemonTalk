@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"> <!-- Aquí se cambia el fondo a blanco -->
+
+    <ImageView
+        android:id="@+id/lemonIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:src="@drawable/lemon" /> <!-- Asegúrate de que esta imagen exista en res/drawable -->
+
+    <TextView
+        android:id="@+id/phraseTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to LemonTalk"
+        android:textColor="#FFFFFF"
+        android:fontFamily="sans-serif"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_centerInParent="false"
+        android:layout_marginTop="250dp"
+        android:layout_marginLeft="50dp"
+        android:shadowDx="4"
+        android:shadowDy="4"
+        android:shadowRadius="8"
+        android:shadowColor="#000000" />
+
+    <LinearLayout
+        android:id="@+id/userListLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_below="@id/phraseTextView"
+        android:layout_marginTop="20dp"
+        android:padding="16dp"/>
+
+
+</RelativeLayout>

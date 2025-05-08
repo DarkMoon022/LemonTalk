@@ -1,0 +1,25 @@
+<resources>
+    <!-- Definir un estilo para un botón con MaterialButton -->
+    <style name="UserButtonStyle" parent="Widget.MaterialComponents.Button">
+        <!-- Color del texto -->
+        <item name="android:textColor">#388E3C</item>
+        <!-- Padding -->
+        <item name="android:padding">16dp</item>
+        <!-- Fondo personalizado -->
+        <item name="android:backgroundTint">#FFF176</item>
+        <!-- Radio de esquina -->
+        <item name="shapeAppearanceOverlay">@style/ButtonShapeAppearance</item>
+    </style>
+
+        <style name="CustomEditTextStyle">
+            <item name="android:textColorHint">@color/hint_color</item> <!-- Usar textColorHint en lugar de hintTextColor -->
+            <item name="android:textColor">@color/text_color</item>
+        </style>
+
+
+    <!-- Definir el estilo del radio de esquina -->
+    <style name="ButtonShapeAppearance">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+</resources>

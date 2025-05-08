@@ -1,0 +1,13 @@
+<resources>
+    <!-- Colores principales para el tema -->
+    <color name="purple_500">#FBC02D</color>
+    <color name="purple_700">#FBC02D</color>
+    <color name="black">#FBC02D</color>
+    <color name="teal_200">#03DAC5</color>
+    <color name="teal_700">#018786</color>
+    <color name="white">#FFFFFF</color>
+    <color name="userBackgroundColor">#FF5722</color>
+    <color name="hint_color">#333333</color>
+    <color name="text_color">#000000</color>
+
+</resources>
